@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+	<title>Start Line</title>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="signin.html">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+
+    	<div>
+	    	<ul id="ulmenubar">
+	    		<a href="index.html"><img src="images/logo.png" alt="Logo" class=logoup></a>
+	    		<a href = "signin.html" class="menubar">SIGN IN / SIGN UP</a>
+	    		<a href = "index.html" class="active">HOME</a>
+	    	</ul>
+    	</div>
+
+    	<div class="background">
+	    	<img id="mainPic" src="images/mainImage.png" alt="Home Page Picture">
+    	</div>
+
+    	<div class="searchBar">
+
+    		<section class="searchbar">
+    			<img src="images/search.png" alt="search" class=lupa></img>
+    			<p class="searchtext">Search for news, resources, jobs and more</p>
+    		</section>
+    	</div>
+
+    	<div class="feed">
+    		<section class="post1">
+    			<p class=username>enterprenuer01</p>
+    			<hr>
+    			<p class=posttext>Have you visited my website, TheRoseTinted.com yet? I created Rose-Tinted (new name change) with a goal to bridge educational, financial, and personal gaps for women who are looking to achieve goals they have set in their life. Rose-Tinted is a safe haven where individuals can be their full authentic, creative, and confident selves. <br/>
+    			Plus bonus! We have a shop!<br/>
+    			Consider visiting the website today! Therosetinted.com<br/></p>
+    			</section>
+    	</div>
+
+        <div class="feed">
+            <section class="post1">
+                <p class=username>business_women1992</p>
+                <hr>
+                <p class=posttext>The Pizza Machine is hiring a human resources manager for our new factory in Houston, TX. Send your resume to hiring@pizzamachine.com.<br/><br/>
+
+                    BS/BA in Human Resources, Organizational Development, Psychology, Business Management, or a related field is required.<br/>
+                    Minimum of 1 – 3 years’ experience required<br/></p>
+                </section>
+        </div>
+
+    	<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h2>Chat</h2>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+    </body>
+</html>
+

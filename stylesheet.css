@@ -1,0 +1,277 @@
+body{
+	margin: 0;
+}
+
+h1{
+	position: absolute;
+	font-size: 50px;
+	font-family: 'DM Sans', sans-serif;
+	top: 20%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+
+
+.logoup{
+  width:150px;
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom:20px;
+}
+
+.menubar{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+	font-family: 'DM Sans', sans-serif;
+	float: right;
+	font-size: 18px;
+}
+
+.menubar:hover{
+  color:#000000;
+  text-decoration: none;
+}
+
+#ulmenubar{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	height: 80px;
+  	background-color: #8C9AFF;	
+}
+
+.background{
+	position: relative;
+	text-align: center;
+	height: 400px;
+	color: black;
+	margin: 0;
+}
+
+#mainPic{
+	width: 100%;
+	z-index: 0;
+}
+
+.searchBar{
+	position: relative;
+	height: 90px;
+	background-color: #9CFFE1;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 10px 10px;
+}
+
+.searchtext{
+	font-size: 20px;
+	font-family: 'DM Sans', sans-serif;
+	margin: 0;
+	color: black;
+	text-align: left;
+	padding-left: 35px;
+}
+
+.searchbar{
+	background-color: white;
+	width: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.lupa{
+	height: 25px;
+	float: left;
+}
+
+.text1{
+	font-family: 'DM Sans', sans-serif;
+	color: white;
+	font-size: 14px;
+	font-family: 'DM Sans', sans-serif;
+	text-align: justify;
+	padding-right: 500px;
+}
+
+.feed{
+	position: relative;
+	background-color: grey;
+	text-align: center;
+	margin: 0;
+	padding: 10px 10px;
+	height: 300px
+}
+
+.username{
+	font-size: 14px;
+	font-family: 'DM Sans', sans-serif;
+	margin: 15px;
+	color: black;
+	text-align: left;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.posttext{
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  margin: 15px;
+  color: black;
+  text-align: left;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.post1{
+	background-color: white;
+	border-radius: 30px;
+	width: 800px;
+	height: 250px;
+	margin: 20px auto;
+	text-align: center;
+	position: relative;
+}
+
+.active{
+  color:#000000;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 30px;
+  font-family: 'DM Sans', sans-serif;
+  float: right;
+  font-size: 18px;
+}
+
+/* sign in page */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #9CFFE1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #8C9AFF;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  position: center;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+/*chat box*/
+.open-button {
+  background-color:  #9CFFE1;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 210px;
+  border-radius: 20px;
+}
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container .btn {
+  background-color:  #9CFFE1;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+  }
+  .form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
